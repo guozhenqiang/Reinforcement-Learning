@@ -9,9 +9,8 @@ This script is the main part which controls the update method of this example.
 The RL is in RL_brain.py.
 View more on my tutorial page: https://morvanzhou.github.io/tutorials/
 """
-
-from QLearning.maze_env  import Maze
-from QLearning.RL_brain  import QLearningTable
+from maze_env import Maze
+from RL_brain import QLearningTable
 
 
 def update():
